@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_component_images",
+  "info": {
+    "displayName": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Size": {
+      "type": "integer",
+      "max": 100,
+      "min": 0,
+      "default": 50
+    }
+  }
+}

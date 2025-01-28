@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_structure_rows",
+  "info": {
+    "displayName": "Row",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "Column": {
+      "type": "component",
+      "repeatable": true,
+      "component": "structure.column"
+    },
+    "TextPosition": {
+      "type": "enumeration",
+      "enum": [
+        "start",
+        "center",
+        "end"
+      ],
+      "default": "start",
+      "required": true
+    },
+    "PaddingTop": {
+      "type": "integer",
+      "max": 5,
+      "min": 0,
+      "default": 0
+    },
+    "PaddingBottom": {
+      "type": "integer",
+      "max": 5,
+      "min": 0,
+      "default": 0
+    }
+  }
+}

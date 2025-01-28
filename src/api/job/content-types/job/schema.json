@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "Job",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Localisation": {
+      "type": "string",
+      "required": true,
+      "default": "Paris"
+    },
+    "ReadingTime": {
+      "type": "integer",
+      "default": 8,
+      "required": true
+    },
+    "tags": {
+      "type": "json"
+    },
+    "JobDescription": {
+      "type": "richtext"
+    }
+  }
+}

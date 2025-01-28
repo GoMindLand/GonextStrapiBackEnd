@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_structure_columns",
+  "info": {
+    "displayName": "Column",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "sizeDesktop": {
+      "type": "integer",
+      "min": 1,
+      "max": 12,
+      "required": true,
+      "default": 6
+    },
+    "Cartes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.carte"
+    },
+    "Images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.image"
+    },
+    "Description": {
+      "displayName": "Description",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.description"
+    },
+    "Bouton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.bouton"
+    },
+    "SizeMobile": {
+      "type": "integer",
+      "max": 12,
+      "min": 1
+    }
+  }
+}

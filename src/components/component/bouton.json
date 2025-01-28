@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_boutons",
+  "info": {
+    "displayName": "Bouton",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

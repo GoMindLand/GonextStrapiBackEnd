@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_blogs",
+  "info": {
+    "singularName": "article-blog",
+    "pluralName": "article-blogs",
+    "displayName": "ArticleBlog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "required": true
+    },
+    "Auteur": {
+      "type": "string",
+      "required": true
+    },
+    "article": {
+      "type": "richtext",
+      "required": true
+    },
+    "timeToRead": {
+      "type": "integer"
+    },
+    "tags": {
+      "type": "enumeration",
+      "enum": [
+        "Web GreenIT",
+        "Mobile GreenIT",
+        "Eco conception",
+        "Design éthique",
+        "Accessibilité",
+        "Dark pattern",
+        "Eco-gestes"
+      ]
+    }
+  }
+}

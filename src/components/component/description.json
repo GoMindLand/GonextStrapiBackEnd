@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_component_descriptions",
+  "info": {
+    "displayName": "Description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Contenue": {
+      "type": "richtext"
+    },
+    "strong": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}
