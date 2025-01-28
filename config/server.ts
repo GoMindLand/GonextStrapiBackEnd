@@ -1,5 +1,7 @@
 export default ({ env }) => {
   console.log("APP_KEYS:", env.array('APP_KEYS'));
+  console.log("APP_KEYS (direct):", env('APP_KEYS'));
+  console.log("APP_KEYS (array):", env.array('APP_KEYS'));
   return {
     host: env('HOST', '0.0.0.0'),
     port: env.int('PORT', 1337),
